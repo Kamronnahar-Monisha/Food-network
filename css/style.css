@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+ .container{
+    max-width:1320px;
+    margin:0 auto;
+} 
+.orange{
+    color:#FBA24F;
+}
+.row{
+    display:flex;
+    justify-content:space-between;  
+}
+.btn-orange-gradient{
+    padding:15px 25px;
+    border:none;
+    border-radius:25px;
+    font-weight:bold;
+    color:white;
+    background-image:linear-gradient(to right ,#FBA24F,#FF1E1E);
+    box-shadow: 0 0 10px #FBA24F;
+}
+#navbar{
+    padding:20px 0;
+    box-shadow: 0px 0px 5px #575757;
+    text-transform: uppercase;
+}
+#navbar-brand img{
+    width:50px;
+    height:50px;
+}
+#navbar-brand span{
+    vertical-align:20px;
+}
+nav{
+    align-self:center;
+}
+nav li{
+    margin-right:20px;
+    display:inline;
+}
+nav a{
+    color:#676767; /**/
+}
+.showcase-box, .about-box{
+    width:40%;
+}
+#showcase h1{
+    color:#575757;
+    font-size:50px;
+    font-weight:600px;
+}
+#showcase p,#about p{
+    padding:50px 0;
+    color:#828282;
+}
+#showcase img{
+    width:100%;
+    margin-top:50px;
+}
+.about-img{
+    width:100%;
+    position:relative;
+    top:75px;
+}
+.showcase-explanation{
+    padding:200px 100px;
+}
+.about-explanation{
+    padding:80px 0;
+}
+#about{
+    background-image:url('../images/shapes/about-bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+
+#my-recipes{
+    padding:150px 0;
+    color:#575757;
+}
+.my-recipes-header{
+    width:70%;
+    margin:auto;
+    text-align: center;
+}
+.my-recipes-header h1{
+    font-size: 1.5em;
+}
+.my-recipes-header p{
+    padding:30px 0 50px 0;
+}
+.my-recipes-boxes{
+    display:flex;
+    width:100%;
+}
+.my-recipes-box{
+    width:25%;
+    margin:auto;
+    padding:10px;
+    box-shadow: 0 0 20px #828282;
+    border-radius:25px;
+}
+.my-recipes-box img{
+    width:100%;
+    border-radius:20px
+}
+.my-recipes-box h2{
+    margin-top:20px;
+    font-size:20px;
+}
+.my-recipes-box p{
+    padding:20px 0;
+}
+
+
+
+
+#contact{
+    background-image: url('../images/shapes/contact-bg.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:100px;
+}
+.contact-header{
+    width:70%;
+    margin:auto;
+    text-align: center;
+}
+.contact-header h1{
+    color:#fe472d;
+}
+.contact-header p{
+    padding:20px;
+    font-size:.9rem;
+    color:#575757;
+}
+.contact-boxes{
+    width:80%;
+    margin:auto;
+    display:flex;
+}
+.contact-box{
+    width:40%;
+    margin:auto;
+}
+.contact-box img{
+    width:80%;
+}
+form{
+    padding-top:100px;
+}
+form>input{
+    display:block;
+}
+input:not([type="checkbox"]),textarea{
+    width:70%;
+    padding:10px 20px;
+    border:1px solid #575757;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.checkbox{
+    margin-bottom:30px;
+}
+.checkbox input{
+    margin-right:10px;
+}
+.checkbox span{
+    font-size:.9rem;
+    color:#575757;
+}
+form button{
+    margin-left:100px;
+}
+
+
+#social{
+    width:70%;
+    margin:100px auto;
+    box-shadow: 0 0 20px #828282;
+    text-align:center;
+    padding:100px 0;
+    border-radius:20px;
+
+}
+.followers{
+    display:flex;
+    width:70%;
+    margin:auto;
+    justify-content:space-between;
+}
+#social a{
+    color:black;
+}
+#social .icon{
+    margin:35px 0;
+}
+#social .icon a{
+    margin-right:20px;
+    font-size:1.2rem;
+}
+#social .social-icon p{
+    font-size:1.2rem;
+}
+.followers{
+    padding-top:50px;
+}
+.followers a{
+    font-size:2rem;
+    font-weight:bold;
+}
+.followers p{
+    font-size:.6rem;
+    color:#FBA24F;
+    font-weight:lighter;
+}
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding:30px 0;
+}
+footer h1{
+    color:#575757;
+    text-transform: uppercase;
+    font-size:2rem;
+}
+footer p{
+    color:white;
+    padding:30px 0;
+}
+
